@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Magic Forest</title>
+  <link rel="icon" href="assets/images/Logo/lg 200x200.png">
+</head>
+<!-- Intro settings -->
+<style>
+  /* Default height for small devices */
+  #intro-example {
+    height: 400px;
+  }
+  .tok-text{
+      padding-top: 20px;
+      color: white;
+      padding-left: 10px;
+    }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 700px;
+    }
+
+    .sec-text {
+      padding-top: 80px;
+
+    }
+
+    .img-fluid {
+      width: 100%;
+      height: 450px;
+    }
+    .tok-text{
+      padding-top: 120px;
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img style="margin-left: 20%;" src="assets/images/Logo/lg 200x200.png" height="100" width="100" alt=""
+            loading="lazy" />
+        </a>
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#heroes">Heroes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#tokenomics">Tokenomics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#roadmap">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#partners">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary pl-3 pr-3 btn-diff" href="#contact"
+                style="font-family: wizard; border-radius: 20px;">
+                Join us!
+              </a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!-- Background image -->
+    <div id="intro-example" class="p-5 text-center bg-image"
+      style="background-image: url('assets/images/Charachters/Actrium\ 2.1.png'); background-position: fixed; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3 heading-head"><b>DeFi Yield Aggregator & NFT Gaming Universe</b></h1>
+            <h5 class="mb-4">Play, Hold and Earn.</h5>
+            <a class="btn btn-outline-light btn-lg m-2 btn-header" href="#" role="button" rel="nofollow">White paper</a>
+            <a class="btn btn-outline-light btn-lg m-2 btn-header" href="#game" role="button">Play Game</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <br><br>
+  <div class="container text-center" id="about">
+    <h1 class="p-3">About</h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+      <br>
+    </center>
+    <div class="row mt-4 pt-4 pb-4 mb-4 about">
+      <div class="col-lg-4 text-center">
+        <img src="assets/images/webs/about-1.png" class="img-about">
+        <h3 class="p-3">Magic forest marketplace</h3>
+        <p class="text-center p-2">Shoot others, earn points and withdraw. </p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <img src="assets/images/webs/about-2.png" class="img-about">
+        <h3 class="p-3">Play and hold = Earn</h3>
+        <p class="text-center p-2">Our tokenomics are finely turned to benefit token holders and early adapters of Magic
+          Forest universe. </p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <img src="assets/images/webs/about-3.png" class="img-about">
+        <h3 class="p-3">BUSD Rewards</h3>
+        <p class="text-center p-2">5% BUSD reflection with every transaction </p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="container text-center">
+    <h1 class="text-center p-3"> Amazing Maps and characters</h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+    </center>
+    <br>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class=" pl-5 sec-text">
+          Heroes are sworn protectors of magic forest. assembled togetherr by mother nature. As true freedom fighters,
+          they champion the
+          forefront of the battle against monsters army. Without their acts of heroism the forest would have undoubtedly
+          fallen under the
+          oppressive rule of the mad witch, Ugly girl.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <img src="assets/images/Charachters/ugly-girl (2).png" class="img-fluid sec-img">
+      </div>
+    </div>
+  </div>
+  <center>
+    <br>
+    <hr style="width: 30%; color: white; font-weight: bold;">
+    <br>
+  </center>
+
+
+  <div class="container" id="game">
+    <h1 class="text-center p-3"><b>Let's Play the Demo!</b></h1>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <iframe src="magic-forest-game.html" frameborder="0" height="600px" width="100%"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <br>
+    <hr style="width: 30%; color: white; font-weight: bold;">
+    <br>
+  </center>
+
+
+
+
+  <div class="container text-center">
+
+    <div class="row">
+      <div class="col-lg-5">
+        <img src="assets/images/Charachters/Harmful-sisters.png" class="img-fluid sec-img">
+      </div>
+      <div class="col-lg-7">
+        <p class=" pl-5 mt-3 sec-text">
+          About The Forest (video game) Font. The Forest is a survival video game developed and published by Canadian
+          video game developer Endnight Games. The “FOREST” uses Headliner No. 45 by KC Fonts, with slight modification
+          on the left side of the F bar. The tiny “THE” looks like an extended version of Calame designed by Martin
+          Calame.About The Forest (video game) Font. The Forest is a survival video game developed and published by
+        
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center mt-5" id="heroes">
+    <h1 class="text-center p-3"><b>Heroes</b></h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+    </center>
+    <br>
+    <div class="row text-center">
+      <div class="col-lg-3">
+        <figure class="snip0015 pl-2">
+          <img src="assets/images/Portrait/3.0.jpg" alt="sample38" />
+          <figcaption>
+            <h2>The<br><span>Nail Maker</span> </h2>
+            <p>A powerful freedom fighter of the magic forest to fight against all odds</p>
+
+          </figcaption>
+        </figure>
+
+      </div>
+      <div class="col-lg-3">
+        <figure class="snip0015">
+          <img src="assets/images/Portrait/4.0.jpg" alt="sample39" />
+          <figcaption>
+            <h2>The<br><span>Ugly Girl</span> </h2>
+            <p>A Clever witch always trying to take over and to rule the forest</p>
+
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-3">
+        <figure class="snip0015">
+          <img src="assets/images/Portrait/Actrium.png" height="405px" alt="sample40" />
+          <figcaption>
+            <h2>The Green<br> <span>Arctium</span> </h2>
+            <p>A powerful freedom fighter of the magic forest to fight against all odds</p>
+
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-3">
+        <figure class="snip0015">
+          <img src="assets/images/Portrait/harmful sisters.png" alt="sample40" />
+          <figcaption>
+            <h2>The sisters<br><span>Slough & <br> Dregs</span> </h2>
+            <p>The powerful freedom fighter sisters of the magic forest to fight against all odds</p>
+
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <center>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="container">
+        <h1 class="text-center p-3"><b>Next Generation Weapons</b></h1>
+        <center>
+          <hr style="width: 50%; color: white; font-weight: bold;">
+        </center>
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="customers-testimonials" class="owl-carousel">
+
+              <!--TESTIMONIAL 1 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="assets/images/Guns/image (1).png" height="250px" width="100%" alt="">
+
+                </div>
+              </div>
+              <!--END OF TESTIMONIAL 1 -->
+              <!--TESTIMONIAL 1 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="assets/images/Guns/image.png" height="250px" width="100%" alt="">
+
+                </div>
+              </div>
+              <!--END OF TESTIMONIAL 1 -->
+
+              <!--TESTIMONIAL 3 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="assets/images/Guns/Gun-flip.png" height="250px" width="100%" alt="">
+
+                </div>
+
+              </div>
+              <!--END OF TESTIMONIAL 3 -->
+              <!--TESTIMONIAL 4 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="assets/images/Guns/Riff.png" height="250px" width="100%" alt="">
+
+                </div>
+
+              </div>
+              <!--END OF TESTIMONIAL 4 -->
+              <!--TESTIMONIAL 5 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="assets/images/Guns/Pistol5.jpg" height="250px" width="400px" alt="">
+
+
+                </div>
+
+              </div>
+              <!--END OF TESTIMONIAL 5 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+
+  </center>
+  <br><br>
+  <div class="container" id="tokenomics">
+    <h1 class="text-center p-3"><b>Token Metrics</b></h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+    </center>
+    <div class="row">
+
+      <div class="col-lg-2">
+      
+        
+      </div>
+      <div class="col-lg-4">
+        <img src="assets/images/webs/tokenomics piechart.png" class="img-fluid" style="width: 100%; height: 100%" alt="piechart">
+      </div>
+      <div class="col-lg-4">
+        <div class="tok-text ">
+          <h4> <i class="fa fa-angle-right"></i>
+            Distribution
+          </h4>
+          <h4> <i class="fa fa-angle-right"></i>
+           Pre-Burn
+          </h4>
+          <h4> <i class="fa fa-angle-right"></i>
+            Game Intensives
+          </h4>
+          <h4> <i class="fa fa-angle-right"></i>
+            Liquidity
+          </h4>
+
+
+        </div>
+   
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container" id="roadmap">
+    <h1 class="text-center p-3"><b>Our Roadmap</b></h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+    </center>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-timeline">
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-icon"><i class="fa fa-check"></i></div>
+              <h3 class="title">November 2021</h3>
+              <p class="description">
+                Trading Launch & CMC/CG Listing & Marketing Campaign & Influencer Onboarding Program
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+              <h3 class="title"> December 2021</h3>
+              <p class="description">
+
+                The Magic Forest Alpha Launch & NFT Marketplace Alpha Launch & Comperhensive Marketing Campaign
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+              <h3 class="title"> January 2022</h3>
+              <p class="description">
+
+                The Magic Forest and NFT Marketplace Final Release & Integration of In-Game Wagering & Certik Audit &
+                CEX listing
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+              <h3 class="title"> February 2022</h3>
+              <p class="description">
+
+                Magic Forest Universe Expension & Strategic Partnerships & Marketing Campaign </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <div class="container mt-5 mb-5 pb-5 text-center" id="partners">
+    <h1 class="text-center p-3"><b>Our Partners</b></h1>
+    <center>
+      <hr style="width: 50%; color: white; font-weight: bold;">
+    </center>
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="assets/images/partners/1.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/2.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/3.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/4.png" class="img-partner">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="assets/images/partners/5.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/6.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/7.png" class="img-partner">
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/images/partners/8.png" class="img-partner">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container pt-5" id="contact">
+    <h1 class="text-center p-3"><b>Contact Us</b></h1>
+    <center>
+
+      <hr style="width: 50%; color: white; font-weight: bold;">
+      <br>
+    </center>
+    <div class="row pt-2">
+      <div class="col-lg-2 col-sm-6"></div>
+      <div class="col-lg-4 col-sm-6">
+        <form data-form-title="CONTACT US">
+          <input type="hidden" data-form-email="true">
+          <div class="form-group">
+            <label class="m-1 label">Name:</label>
+            <input type="text" class="form-control m-1 input" name="name" required="" placeholder="Name*"
+              data-form-field="Name">
+          </div>
+          <div class="form-group">
+            <label class="m-1 label">Email:</label>
+            <input type="email" class="form-control m-1 input" name="email" required="" placeholder="Email*"
+              data-form-field="Email">
+          </div>
+          <div class="form-group">
+            <label class="m-1 label">Phone:</label>
+            <input type="tel" class="form-control m-1 input" name="phone" placeholder="Phone" data-form-field="Phone">
+          </div>
+
+
+        </form>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="form-group">
+          <label class="m-1 label">Your Message</label>
+          <textarea class="form-control m-1 text-box" name="message" placeholder="Message" rows="7"
+            data-form-field="Message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+
+          <button type="submit" class="btn btn-lg btn-primary m-2">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <section class="text-center footer">
+    <div class="container-fluid text-center text-md-start mt-5  pt-5">
+      <div class="container">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <img class="text-uppercase fw-bold mb-4" src="assets/images/Logo/lg 200x200.png">
+            </h6>
+            <p>
+              An amazing NFT crypto based shooting game. Big opportunity to earn by playing game and spending free time!
+              Join the community today and become a part of us!
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Magic Forest</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">NFTs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Crypto</a>
+            </p>
+
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#about" class="text-reset">About</a>
+            </p>
+            <p>
+              <a href="#game" class="text-reset">Game Demo</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-reset">contact</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> USA</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-lg-start bg-dark text-muted">
+    <div class="bg-dark text-center text-white">
+
+      <div class="container p-2 pb-0">
+
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating mb-3" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating mb-3" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fab fa-twitter"></i></a>
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating mb-3" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fab fa-google"></i></a>
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating mb-3" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+
+        </section>
+        <div class="text-center  bg-dark">
+          <small> © 2021 Copyright.</small>
+          <a class="text-reset fw-bold" href="#"><small>Magic Forest</small></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+  <!-- Footer -->
+  <!-- Bootstrap Bundle with Popper -->
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
